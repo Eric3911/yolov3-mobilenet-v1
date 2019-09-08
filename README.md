@@ -12,7 +12,6 @@
     t_lines = t_lines[:700]
     num_train = len(t_lines)
   
-  
 我们修改为如下代码代码可以训练：
     with open(train_path) as t_f:
         t_lines = t_f.readlines()
