@@ -1,4 +1,4 @@
-							# YOLOv3-Mobilenet
+# YOLOv3-Mobilenet
 
 By Jungang An
 
@@ -26,18 +26,18 @@ Exchange: We modified the code to be trained as follows：
          num_train = len(t_lines)
 	
 	
- # 2.Practical steps of using transfer learning training model: 
+ # 2、Practical steps of using transfer learning training model: 
  
  # DataSet VOC2007
 	A) Put all the label XML of training data in Annotations;
 	B) Put all the labeled training pictures in JPEG Images;
 
-# creat_list.py
+# 3、creat_list.py
 	C) Use the creat_list.py script under VOC2007 to generate four new documents in Main under ImageSets;
 	train.txt
 	test.txt
 	val.txt
-# voc_annotation.py
+# 4、voc_annotation.py
 	D) Write the class parameters in the sixth line of the voc_annotation.py script under the root directory as their own class parameters in ["aircraft"];
 	E) Run the voc_annotation.py script code to generate three files in the root directory: 
 	2007_test; 
@@ -45,13 +45,13 @@ Exchange: We modified the code to be trained as follows：
 	2007_val;
 	F) Modify the class label in voc_classes under model_data directory, where the order must always be and must be the same as that in classes, including the space placeholders between some label words.
 	
-# kmeans.py
+# 5、kmeans.py
 	G) Run the kmeans script to generate new yolo_anchors and copy them to the model_data directory to overwrite the previous yolo_anchors;
-# yolov3.cfg
+# 6、yolov3.cfg
 	H) Modify yolov3.cfg, which is as common as other modifications.
-# training
+# 7、training
 	I) Use the train_Mobilnet.py code to modify the path of its relevant parameters. Generally, at 21-24, 37, 68, 74, 75, 86, 92, 93 lines of code, the script model can be trained to execute.
-# test 
+# 8、test 
 	python train_Mobilenet.py
 	J) After the training, yolo_Mobilnet is used to test the model and get the result.
 
