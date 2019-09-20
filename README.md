@@ -22,7 +22,9 @@ Exchange: We modified the code to be trained as follows：
        	 	t_lines = t_f.readlines()
          random_stat = 123
          np.random.seed(random_stat)
-       	 t_lines, v_lines = train_test_split(t_lines, test_size=0.2, random_state=random_stat)
+       	 t_lines, v_lines = train_test_split(t_lines, 
+	 				     test_size=0.2,
+					     random_state=random_stat)
          num_train = len(t_lines)
 	
 	
