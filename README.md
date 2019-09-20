@@ -25,12 +25,12 @@ exchange: We modified the code to be trained as follows：
 	
 	
  **2.Practical steps of using transfer learning training model: 
- 	step one:
+ 	
 	A) Put all the label XML of training data in Annotations;
 	B) Put all the labeled training pictures in JPEG Images;
-	step two:
+	
 	C) Use the creat_list.py script under VOC2007 to generate four new documents in Main under ImageSets;
-	step three:
+	
 	D) Write the class parameters in the sixth line of the voc_annotation.py script under the root directory as their own class parameters in ["aircraft"];
 	E) Run the voc_annotation.py script code to generate three files in the root directory: 2007_test; 2007_train; 2007_val;
 	F) Modify the class label in voc_classes under model_data directory, where the order must always be and must be the same as that in classes, including the space placeholders between some label words.
