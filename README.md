@@ -1,5 +1,4 @@
 						# YOLOv3-Mobilenet
-
 **1. In this version, we found that the error of Val = 0 occurred in the code during our training process, which made it impossible to train.
 
 issue:  The error code fragment in the  train_Mobilenet.py   script is as follows：
