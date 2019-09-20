@@ -2,7 +2,7 @@
 
 By Jungang An
 
-### 1. In this version
+# 1、 In this version
 we found that the error of Val = 0 occurred in the code during our training process, which made it impossible to train.
 
 issue:  The error code fragment in the  train_Mobilenet.py   script is as follows：
@@ -26,7 +26,7 @@ Exchange: We modified the code to be trained as follows：
          num_train = len(t_lines)
 	
 	
- **2.Practical steps of using transfer learning training model: 
+ # 2.Practical steps of using transfer learning training model: 
  
  # DataSet VOC2007
 	A) Put all the label XML of training data in Annotations;
