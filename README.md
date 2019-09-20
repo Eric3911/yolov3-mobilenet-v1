@@ -12,9 +12,7 @@ with open(train_path) as t_f:
     v_lines = t_lines[700:]
     t_lines = t_lines[:700]
     num_train = len(t_lines)
-  
 exchange: We modified the code to be trained as follows：
-
 
    with open(train_path) as t_f:
         t_lines = t_f.readlines()
@@ -24,8 +22,6 @@ exchange: We modified the code to be trained as follows：
         num_train = len(t_lines)
 	
 	
-
-  
  **2.Practical steps of using transfer learning training model: 
  
 A) Put all the label XML of training data in Annotations;
