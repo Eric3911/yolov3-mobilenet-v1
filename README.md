@@ -6,6 +6,7 @@ By Jungang An
 we found that the error of Val = 0 occurred in the code during our training process, which made it impossible to train.
 
 issue:  The error code fragment in the  train_Mobilenet.py   script is as follows：
+
 	with open(train_path) as t_f:
         	t_lines = t_f.readlines()
     	np.random.seed(10101)
@@ -16,6 +17,7 @@ issue:  The error code fragment in the  train_Mobilenet.py   script is as follow
     	num_train = len(t_lines)
 	
 Exchange: We modified the code to be trained as follows：
+
   	 with open(train_path) as t_f:
        	 	t_lines = t_f.readlines()
          random_stat = 123
