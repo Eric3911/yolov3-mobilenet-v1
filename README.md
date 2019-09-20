@@ -52,7 +52,7 @@ Exchange: We modified the code to be trained as follows：
 # 7、training
 	I) Use the train_Mobilnet.py code to modify the path of its relevant parameters. Generally, at 21-24, 37, 68, 74, 75, 86, 92, 93 lines of code, the script model can be trained to execute.
 # 8、test 
-	python train_Mobilenet.py
-	J) After the training, yolo_Mobilnet is used to test the model and get the result.
+	python test.py
+	J) After the training, test.py is used to test the model and get the result.
 
 
