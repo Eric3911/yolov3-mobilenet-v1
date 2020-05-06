@@ -1,6 +1,6 @@
-# YOLOv3-Mobilenet
-
-By Jungang An
+#  Citing 
+《YOLOv3-Mobilenet-update》
+By Fangyu Zhou & Jungang An
 
 # 1、 In this version
 we found that the error of Val = 0 occurred in the code during our training process, which made it impossible to train.
