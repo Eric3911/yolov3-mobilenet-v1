@@ -53,7 +53,12 @@ Exchange: We modified the code to be trained as follows：
 # 8、test 
 	python test.py
 	J) After the training, test.py is used to test the model and get the result.
-
+	
+# 9、environment
+	Python 3.6.5
+	Keras 2.1.5
+	tensorflow 1.6.0
+	
 # 9、Citing 
 《YOLOv3-Mobilenet-update》
 By Fangyu Zhou & Jungang An
