@@ -55,6 +55,7 @@ Exchange: We modified the code to be trained as follows：
 	J) After the training, test.py is used to test the model and get the result.
 	
 # 9、Environment
+	cuda 9/10
 	Python 3.6.5
 	Keras 2.1.5
 	tensorflow 1.6.0
